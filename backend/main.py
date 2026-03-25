@@ -15,6 +15,7 @@ app.add_middleware(
     allow_methods = ['POST'], # We only need to send data
 )
 
+# This will be our request body.
 class Loan(BaseModel):
     personalCode: str
     loanAmount: int
