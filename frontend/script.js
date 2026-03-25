@@ -1,5 +1,5 @@
 // Test case
-const code = "49002010987"
+const code = "49002010976"
 const amount = 2000
 const period = 12
 
@@ -18,6 +18,7 @@ fetch("http://localhost:8000/decisions" , {
 .then(json => {
     console.log("Loan decision: ", json);
     // TODO Modifiy HTML based on the loan assessment
+    
 })
 .catch(error => console.error("Error: ", error))
 
