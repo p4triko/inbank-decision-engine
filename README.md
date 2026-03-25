@@ -58,7 +58,7 @@ Here the amount is adjusted, because approved amount didn't suffice.
 ```
 
 ## What is one thing you would improve about the take home assignment and how would you improve it?
-Possibly add more parameters to mix which in turn would make the algorhitm for assessing the right for loans more interesting possibly. Maybe introduce loan types, for example student loans mortgages/etc and assess how these factor in. <br>
+Possibly add more parameters to the mix which in turn would make the algorhitm for assessing the right for loans more interesting possibly. Maybe introduce loan types, for example student loans mortgages/etc and assess how these factor in. <br>
 <br>
 If I were to improve one thing about my own assignment, it would be the input side of things. Right now the only form of input is a slider, which does make precise inputs more difficult. In terms of implementing it there definitely needs to be some form of input validation, because
 we are dealing with min and max for both the required values. The user would enter a value and then it would be ran through a filter basically to sort out all the bad.
